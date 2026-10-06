@@ -1,0 +1,8 @@
+/** Обобщённый результат постраничной выборки */
+export interface PaginatedResult<T> {
+  items: T[];
+  total: number;
+  page: number;
+  limit: number;
+  pages: number;
+}

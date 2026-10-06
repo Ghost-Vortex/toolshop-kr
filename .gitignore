@@ -1,0 +1,18 @@
+# Зависимости
+node_modules/
+
+# Сборка
+dist/
+build/
+coverage/
+
+# Переменные окружения
+.env
+.env.local
+
+# Служебные файлы систем и редакторов
+.DS_Store
+.idea/
+.vscode/
+*.log
+Documents/
